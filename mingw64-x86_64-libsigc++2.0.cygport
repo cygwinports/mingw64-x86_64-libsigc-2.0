@@ -1,0 +1,17 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="libsigc++"
+inherit cross gtkmm
+
+NAME="mingw64-x86_64-libsigc++2.0"
+VERSION=2.2.10
+RELEASE=1
+CATEGORY="Gnome"
+SUMMARY="C++ callback framework for Win64 toolchain"
+DESCRIPTION="This package does NOT contain cygwin binaries.  Instead, it
+contains msvcrt-linked binaries (aka 'mingw').  It is for use with the
+mingw64-x86_64-gcc cross compiler, and installs into the
+/usr/x86_64-w64-mingw32/sys-root/mingw/{lib,include} directories."
+
+CYGCONF_ARGS="--disable-documentation"
+
+KEEP_LA_FILES="none"
