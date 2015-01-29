@@ -3,7 +3,7 @@ ORIG_PN="libsigc++"
 inherit cross gtkmm
 
 NAME="mingw64-x86_64-libsigc++2.0"
-VERSION=2.2.11
+VERSION=2.4.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C++ callback framework for Win64 toolchain"
